@@ -8,7 +8,7 @@
 		Spring boot will handle the resource mapping automcatically -->
 		<script src="<c:url value="/js/jquery-3.3.1.min.js" />" ></script>
 	<link rel="stylesheet" type="text/css" href="webjars/bootstrap/3.3.7/css/bootstrap.min.css" />
-<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.3.14/angular.min.js"></script>
+<script src="<c:url value="/js/angular.min.js"/>"></script>
 
 	<!-- 
 	<spring:url value="/css/main.css" var="springCss" />
@@ -17,12 +17,12 @@
 	<c:url value="/css/main.css" var="jstlCss" />
 	<link href="${jstlCss}" rel="stylesheet" />
 
-	<link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-<script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
-<script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+	<link href="<c:url value="/css/bootstrap.min.css"/> " rel="stylesheet" id="bootstrap-css">
+<script src="<c:url value="/js/bootstrap.min.js"/>"></script>
+<script src="<c:url value="/js/jquery-1.11.1.min.js" />"></script>
 <!------ Include the above in your HEAD tag ---------->
 
-<script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/jqueryui/1.10.4/jquery-ui.min.js"></script>
+<script type="text/javascript" src="<c:url value="/js/jquery-ui.min.js" />"></script>
 </head>
 <body ng-app="myApp">
 
